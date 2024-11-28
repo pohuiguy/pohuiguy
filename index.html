@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+            name="description"
+            content="just a pohui guy"
+    />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+    <!-- PNG Favicon for Modern Browsers -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+
+    <!-- Apple Touch Icon (For iOS devices) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+
+    <!-- Microsoft Tiles (For Windows) -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+
+    <!-- Android and Google Touch Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="./android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="./android-chrome-512x512.png">
+
+    <!-- Manifest File (Progressive Web Apps) -->
+    <link rel="manifest" href="./site.webmanifest">
+    <title>Pohui Guy</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+        a.social {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+        }
+        .social svg {
+            width: 24px;
+            height: 24px;
+        }
+        .hero {
+            background-image: url('interior.jpg');
+            background-size: cover;
+            width: 100%;
+            min-height: 100vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-position: 50%;
+        }
+        .hero-content {
+            text-align: center;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding-top: 14rem;
+        }
+        a.buy {
+            background: #272727;
+            width: 60px;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0.5rem;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        h1 {
+            font-size: 3rem;
+            background: #000000;
+        }
+        .menu {
+            max-width: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffffad;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            top: 40px;
+            transform: translateX(-50%);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            gap: 16px;
+        }
+        .guy {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <nav class="menu">
+        <a href="https://x.com/pohuiguy" target="_blank" class="social"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" class="w-5 h-5 text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"></path></svg></a>
+        <a href="https://x.com/pohuiguy" class="social"><svg target="_blank" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-5 h-5 text-white" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg></a>
+        <a href="/" class="buy" target="_blank">buy</a>
+    </nav>
+    <div class="hero">
+        <div class="hero-content">
+            <img class="guy" src="pohuiguy.png" />
+            <h1>Just a pohui guy</h1>
+        </div>
+    </div>
+</div>
+</body>
+</html>
